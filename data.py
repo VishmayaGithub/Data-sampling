@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import random
 
 read = pd.read_csv('data.csv')
-data = read['reding_time'].tolist()
+data = read['reading_time'].tolist()
 
 o_mean = statistics.mean(data)
 print('Overall mean -->',o_mean)
